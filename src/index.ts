@@ -1,7 +1,8 @@
-const express = require('express');
+import { Request, Response, NextFunction } from 'express';
+import express = require('express');
 const app = express();
 
-app.get('/', (req, res) => {
+app.get('/', (req: Request, res: Response) => {
   res.send('Hello World!');
 });
 
