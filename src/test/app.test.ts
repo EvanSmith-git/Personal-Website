@@ -6,10 +6,10 @@ describe('App Test', () => {
     const res = await request(app).get('/');
     expect(res.statusCode).toEqual(200);
   });
-
-  it('should say "Hello World!"', async () => {
+  
+  it('should have a title', async () => {
     const res = await request(app).get('/');
     expect(res.statusCode).toEqual(200);
-    expect(res.text).toContain('Hello World!');
+    expect(res.text).toContain('<title>Portfolio | Evan Smith</title>');
   });
 });
