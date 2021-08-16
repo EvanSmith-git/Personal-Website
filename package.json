@@ -6,8 +6,8 @@
   "scripts": {
     "build": "tsc || exit 1",
     "test": "jest",
-    "dev": "nodemon --exec \"npm run build && npm run test\"",
-    "start": "node ."
+    "start": "node .",
+    "dev": "nodemon --exec \"npm run build && npm run test && node .\""
   },
   "author": "Evan Smith",
   "license": "ISC",
