@@ -1,0 +1,51 @@
+ h1 {
+    margin:0;
+    padding:0;
+ }
+
+body {
+    color: #fff;
+    background-color: #222;
+    margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#sidebar {
+    height: 100%;
+    width: 145px;
+    position: fixed;
+    z-index: 1;
+    background-color: #111;
+    overflow: hidden;
+}
+
+#sidebar:first-child {
+    padding-top: 12px;
+}
+
+#sidebar a {
+    padding: 8px 8px 8px 12px;
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+#content {
+    margin-left: 145px;
+}
+
+i {
+    float: right;
+    margin-right: 6px;
+    position: relative;
+    top: 5px;
+}
+
+.fa-info {
+    right: 8.75px;
+}
+
+.fa-address-card {
+    right: 1.25px;
+}
